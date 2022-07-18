@@ -1,0 +1,88 @@
+<style>
+
+.starbeancon {
+ height:auto;
+ overflow:hidden;
+ background-color:#faf7f5;
+}
+
+.conbeancon {
+float: left;
+    width: 50%;
+}
+
+.conbean {
+float: right;
+    width: 30%;
+    margin-right: 10%;
+    padding: 5%;
+}
+
+.starbeanimageleft {
+  margin-left: 2.75rem;
+    width: auto;
+    height: 220px;
+    max-width: 220px;
+    margin-top: 1.875rem;
+    width: 100%;
+    float: left;
+}
+
+.starbeanimageright  {
+margin-left: 2.75rem;
+    width: auto;
+    height: 220px;
+    max-width: 220px;
+    margin-top: 1.875rem;
+    width: 100%;
+    float: right;
+}
+.starbeantitle {
+text-align:center;
+}
+.starbeandescleft
+{font-family: "Montserrat";
+    margin: 0;
+    line-height: 1.33;
+    color: #2b2b2d;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-bottom: 0;
+    font-size: .875rem;
+    font-weight: 500;
+}
+.starbeandescright
+{font-family: "Montserrat";
+    margin: 0;
+    line-height: 1.33;
+    color: #2b2b2d;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-bottom: 0;
+    font-size: .875rem;
+    font-weight: 500;
+}
+</style>
+
+<div class="starbeancon">
+
+<h1 class="starbeantitle"> ${properties.title} </h1>
+
+<div class="conbeancon">
+<img src=" ${properties.fileReference}" class="starbeanimageleft" alt="">
+<div class="conbean">
+<h3 class="starbeansubleft"> ${properties.subtitle} </h3>
+
+<h1 class="starbeandescleft"> ${properties.description} </h1>
+</div>
+</div>
+<div class="conbeancon">
+<img src=" ${properties.fileReference1}" class="starbeanimageright" alt="">
+
+<div class="conbean">
+<h3 class="starbeansubright"> ${properties.subtitle1} </h3>
+
+<h1 class="starbeandescright"> ${properties.description1} </h1>
+</div>
+</div>
+</div>

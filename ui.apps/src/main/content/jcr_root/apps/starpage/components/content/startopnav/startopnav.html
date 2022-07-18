@@ -1,0 +1,42 @@
+<style>
+
+.startopnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.startopnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.starmenucon a:hover {
+    border-bottom: 4px solid blue;
+}
+
+
+.beanzlogo{
+width:95px;
+height:30px;
+}
+
+
+    </style>
+
+
+<div class="startopnav">
+
+<h1 data-sly-test="${!properties.fileReference}"> Add card component </h1>
+	<a href="https://www.beanz.com/us/en/support/contact-us.html"><img class="starbeanzlogo" src="${properties.fileReference}"></a>
+    <ul class="starmenucon" data-sly-use.topnav="startopnav.js" data-sly-list="${topnav.root.listChildren}">
+        <a href="${item.path}.html">${item.title}</a>
+    </ul>
+
+</div>
+

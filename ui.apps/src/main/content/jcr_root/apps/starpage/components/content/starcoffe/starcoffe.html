@@ -1,0 +1,126 @@
+<style>
+
+   .starcoffetitle{
+    font-size: 1.5rem;
+    font-size: calculateRem(1.5rem);
+    text-align: center;
+    font-family: "Bitter",sans-serif;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.5px;
+    line-height: normal;
+      }
+
+    .starcoffeimg
+    {
+      max-width: 400px;
+      max-width: 1140px;
+    max-height: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    }
+    .starcoffesubtitle{
+
+    margin-top: 0;
+    margin-bottom: .3125rem;
+    font-family: "Bitter";
+    font-size: 1.125rem;
+    line-height: 1.33;
+    font-weight: 700;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: .5em 0;
+      
+
+    }
+    .starcoffesubtitle1{
+
+    margin-top: 0;
+    margin-bottom: .3125rem;
+    font-family: "Bitter";
+    font-size: 1.125rem;
+    line-height: 1.33;
+    font-weight: 700;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: .5em 0;
+
+
+
+    }
+
+    .starcoffedescription{
+    font-size: .75rem;
+    font-size: calculateRem(0.75rem);
+    font-family: "Montserrat",sans-serif;
+    margin-bottom: 1.5625rem;
+    font-weight: 400;
+    line-height: 1.33;
+    color: #2b2b2d;
+    background: #fff;
+
+
+    }
+
+    .starcoffedescription1{
+    font-size: .75rem;
+    font-size: calculateRem(0.75rem);
+    font-family: "Montserrat",sans-serif;
+    margin-bottom: 1.5625rem;
+    font-weight: 400;
+    line-height: 1.33;
+    color: #2b2b2d;
+    background: #fff;
+
+
+    }
+
+    .starcoffe{
+     height:auto;
+     overflow:hidden;
+    }
+
+    .starcoffebru{
+    float: left; width: 45%;
+    margin-left: 5%;
+
+
+    }
+
+    .starcoffesunrise{
+    float: left; width: 45%;
+    margin-left: 5%;
+
+
+    }
+
+
+
+
+
+</style>
+
+<div class="starcoffe">
+<h1 class="starcoffetitle"> ${properties.title} </h1>
+
+
+
+<img src=" ${properties.fileReference}" class="starcoffeimg" itemprop="contentUrl" data-cmp-hook-image="image" alt="">
+
+<div class="starcoffebru">
+
+<h3 class="starcoffesubtitle"> ${properties.subtitle} </h3>
+
+<h1 class="starcoffedescription"> ${properties.description} </h1>
+
+</div>
+<div class="starcoffesunrise">
+
+<h3 class="starcoffesubtitle1"> ${properties.subtitle1} </h3>
+
+<h1 class="starcoffedescription1"> ${properties.description1} </h1>
+</div>
+</div>

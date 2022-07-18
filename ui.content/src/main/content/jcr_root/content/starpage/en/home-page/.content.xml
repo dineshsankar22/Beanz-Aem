@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-30T15:51:40.501+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/starpage/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home Page"
+        sling:resourceType="starpage/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <startext
+                    jcr:created="{Date}2022-06-28T13:12:37.706+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-28T13:13:17.965+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="starpage/components/content/startext"
+                    description="You found us! That means you're after coffee that pours and tastes like your favorite cafe, from the greatest third-wave roasters in the country. All at your fingertips."
+                    fileReference="/content/dam/dinesh/Beanz_Website_3000x1536_Homepage_Header_B_new.webp"
+                    title="Fresh beans from local roasters, delivered to your door."/>
+                <starcoffe
+                    jcr:created="{Date}2022-06-28T13:13:54.559+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-28T13:15:19.029+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="starpage/components/content/starcoffe"
+                    description="When it comes to roasting, each of these three levels embody their own unique mouthfeel and experience: go lighter for bright acidity and delicate flavors, medium for balanced sweetness and acidity, or darker for a richer, sharper cup."
+                    description1="A blend is a mix of beans from various origins expertly combined for maximum balance and consistency. However! Single origin coffees come from a single place, often in limited supply, and are loved for their distinctive flavors and taste of place. Good news is, we offer both."
+                    fileReference="/content/dam/dinesh/coffee-101.webp"
+                    subtitle="Three levels of roasting"
+                    subtitle1="Blends vs Single Origin"
+                    title="Coffee Lowdown"/>
+                <starbean
+                    jcr:created="{Date}2022-06-28T13:15:25.400+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-28T13:16:36.602+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="starpage/components/content/starbean"
+                    description="Brewing by hand on a V60 or Kalita? Or are you more of a passionate drip drinker? These coffees are roasted to take things to a whole new level."
+                    description1="Straight up or mellowed out with milk or creamer in a latte or cappuccino, our range of espresso beans should be just what you're after."
+                    fileReference="/content/dam/dinesh/filter-coffee.png"
+                    fileReference1="/content/dam/dinesh/espresso-coffee.png"
+                    subtitle="Drip &amp; Pour Over"
+                    subtitle1="Espresso"
+                    title="Find your perfect beans"/>
+                <starprofileleft
+                    jcr:created="{Date}2022-06-28T13:16:44.695+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-28T13:17:15.133+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="starpage/components/content/starprofileleft"
+                    description="If you think this option is purely for beginners, think again. Barista's Choice is all about keeping things fresh (minus the heavy lifting). Made for anyone who wants to explore our roasters and try unexpected flavors, while brewing their way from Ethiopia to Indonesia without leaving the house."
+                    fileReference="/content/dam/dinesh/Beanz_Website_690x460_Discovery Beanz_why leave it to us.webp"
+                    name="Why leave it to us?"/>
+                <starprofileright
+                    jcr:created="{Date}2022-06-28T13:17:20.696+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-28T13:18:00.596+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="starpage/components/content/starprofileright"
+                    description="This is where you get to experiment a little. Barista's Choice has been crafted to take you through the whole coffee experience, from different roast levels to single origin, blends and then some. Oh, you’ll also get free shipping, when you subscribe (minimum 2 bags). Tick."
+                    fileReference="/content/dam/dinesh/Beanz_Website_690x460_Discovery beanz_how convenient.png"
+                    name="Explore and save"/>
+                <cardcomponent
+                    jcr:created="{Date}2022-06-30T15:33:28.539+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-30T15:40:12.269+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="starpage/components/content/cardcomponent">
+                    <multifield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/dam/starpage/BeanzUS_Doma_logo_200x200.jpg"
+                            subtitle="Lancaster"
+                            title="Necessary"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/dam/starpage/BeanzUS_Olympia_logo_200x200_new2.jpg"
+                            subtitle="Portland"
+                            title="Coava"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/dam/starpage/BeanzUS_Quills_logo_200x200.jpg"
+                            subtitle="Philadelphia"
+                            title="ReAnimator"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/dam/starpage/BeanzUS_Sightglass_logo_200x200_new.jpg"
+                            subtitle="Topeka"
+                            title="PT's"/>
+                    </multifield>
+                </cardcomponent>
+                <responsivegrid
+                    jcr:created="{Date}2022-06-30T15:50:59.230+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-30T15:50:59.230+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <text
+                        jcr:created="{Date}2022-06-30T15:51:14.224+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-06-30T15:51:40.496+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="starpage/components/content/text"
+                        text="&lt;p>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;How it is working&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

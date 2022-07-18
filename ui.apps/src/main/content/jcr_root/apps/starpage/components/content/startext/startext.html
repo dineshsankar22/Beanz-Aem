@@ -1,0 +1,136 @@
+
+
+<style>
+     .startextcmp-teaser__content {
+    float: none !important;
+    width: auto;
+    display: table;
+    margin: 2.5rem auto;
+    min-height: 0;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    max-width: 900;
+    border-radius: 12px;
+    padding: .9375rem;
+        float: left;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3.125rem;
+    position: relative;
+    background-color: rgba(0,0,0,.65);
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+}
+
+.startexttitle{font-size: 2rem;
+    font-family: "Bitter",sans-serif;
+    font-weight: 700;
+    line-height: 2;
+
+       padding-top: 0;
+    margin-bottom: .625rem;
+
+       display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.startextdesc{
+
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    font-weight: 500;
+    width:700px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+        padding-left: 50px;
+
+
+
+
+}
+
+.startextcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  height:auto;
+  overflow:hidden;
+
+}
+
+.startextcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+     max-width: 1000;
+     width:800px;
+    border-radius: 12px;
+    padding: .9375rem;
+    background-color: rgba(0,0,0,.65);
+
+}
+.starbtn{
+font-size: 1rem;
+    height: 52px;
+    padding: 0 1.875rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgba(0,0,0,.65);
+    backdrop-filter: blur(4px);
+    border: 2px solid #008384;
+    border-radius: 4px;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    text-align: center;
+    margin:10px 0 0 0;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+
+</style>    
+         
+<sly data-sly-use.startext="${'com.aem.starpage.core.models.StarText'}"></sly>
+<div class="startextcontainer">
+
+
+  <img src=" ${startext.file}" alt="Snow" style="width:100%; object-fit: cover;
+    height: 100%;">
+  <div class="startextbottom-left">Bottom Left</div>
+<div class="startextcentered">
+
+<h1 class="startexttitle"> ${startext.title} </h1>
+
+<h1 class="startextdesc"> ${startext.description} </h1>
+
+<a href="" target="blank"><button class="starbtn">Start Exploring</button></a>
+
+
+</div>
+    </div>
+

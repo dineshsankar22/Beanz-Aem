@@ -1,0 +1,58 @@
+    <style>
+
+      .starleftproimage {
+        float: left;
+        width: 45%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 2%;
+
+
+      }
+      .starleftprotextname {
+        float: left;
+        width: 55%;
+        color:black;
+
+      }
+       .starleftproproname{
+       font-size: 1.5rem;
+    font-size: calculateRem(1.5rem);
+    color: #2b2b2d;
+    margin: 0;
+    font-family: "Bitter",sans-serif;
+    font-weight: 700;
+    padding: 7%;
+
+       }
+
+       .starleftproprodesc{
+    font-size: .875rem; 
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    padding: 20px 0 0;
+
+       }
+
+       .starleftprocontainer{
+      height:auto;
+     overflow:hidden;
+    position: relative;
+    text-align: center;
+
+       }
+    </style>
+
+    <div class="starleftprocontainer">
+
+      <div class="starleftproimage">
+        <img src=" ${properties.fileReference}" width="100%"> </img>
+      </div>
+      <div class="starleftprotextname">
+           <h1 class="starleftproproname"> ${properties.name} </h1>
+           <h2 class="starleftproprodesc"> ${properties.description} </h2>
+    </div>
+     </div>
+

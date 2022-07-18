@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="starpage">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <beanz-by-breville-logo-white.svg/>
+    <BeanzUS_Doma_logo_200x200.jpg/>
+    <BeanzUS_Olympia_logo_200x200_new2.jpg/>
+    <BeanzUS_Quills_logo_200x200.jpg/>
+    <BeanzUS_Sightglass_logo_200x200_new.jpg/>
+</jcr:root>

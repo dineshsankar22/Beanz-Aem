@@ -1,0 +1,56 @@
+    <style>
+
+      .starrightproimagerg {
+        float: right;
+        width: 45%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 2%;
+
+      }
+      .starrightprotextnamerg {
+        float: right;
+        width: 55%;
+        color:black;
+
+      }
+       .starrightpropronamerg
+       {
+        font-size: 1.5rem;
+    font-size: calculateRem(1.5rem);
+    color: #2b2b2d;
+    margin: 0;
+    font-family: "Bitter",sans-serif;
+    font-weight: 700;
+    padding: 7%;
+
+       }
+
+       .starrightproprodesc
+       {
+     font-size: .875rem; 
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    padding: 20px 0 0;
+
+       }
+
+       .starrightprocontainerrg{
+        height:auto;
+     overflow:hidden;
+       }
+    </style>
+
+    <div class="starrightprocontainerrg">
+
+      <div class="starrightproimagerg">
+        <img src=" ${properties.fileReference}" width="100%"> </img>
+      </div>
+      <div class="starrightprotextnamerg">
+           <h1 class="starrightproproname"> ${properties.name} </h1>
+           <h2 class="starrightproprodesc"> ${properties.description} </h2>
+    </div>
+     </div>
+
